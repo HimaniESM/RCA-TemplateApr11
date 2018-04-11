@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description>Validate that the form matches the following condition:
+State = In Progress
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <order>20</order>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 11:51:14</sys_created_on>
+        <sys_id>a4d71b264f9ddf0053c240f18110c764</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="RCA Template" source="x_infte_rca_templa">443b91ff6f349300d69dc8c17c3ee407</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCA Template">443b91ff6f349300d69dc8c17c3ee407</sys_scope>
+        <sys_update_name>sys_atf_step_a4d71b264f9ddf0053c240f18110c764</sys_update_name>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 11:51:14</sys_updated_on>
+        <table>x_infte_rca_templa_rca_template_table</table>
+        <test display_value="RCA-2">40d717264f9ddf0053c240f18110c78f</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=a4d71b264f9ddf0053c240f18110c764"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a4d71b264f9ddf0053c240f18110c764</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 11:51:14</sys_created_on>
+        <sys_id>64d71b264f9ddf0053c240f18110c765</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 11:51:14</sys_updated_on>
+        <value>x_infte_rca_templa_rca_template_table</value>
+        <variable display_value="">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a4d71b264f9ddf0053c240f18110c764</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 11:51:14</sys_created_on>
+        <sys_id>a0d71b264f9ddf0053c240f18110c765</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 11:51:14</sys_updated_on>
+        <value>state_rca=2^EQ</value>
+        <variable display_value="">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+</record_update>

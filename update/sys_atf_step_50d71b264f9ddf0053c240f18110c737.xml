@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Submit the current form and confirm form submitted to server</description>
+        <display_name>Submit a Form</display_name>
+        <inputs/>
+        <order>12</order>
+        <step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 11:51:13</sys_created_on>
+        <sys_id>50d71b264f9ddf0053c240f18110c737</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit a Form</sys_name>
+        <sys_package display_value="RCA Template" source="x_infte_rca_templa">443b91ff6f349300d69dc8c17c3ee407</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCA Template">443b91ff6f349300d69dc8c17c3ee407</sys_scope>
+        <sys_update_name>sys_atf_step_50d71b264f9ddf0053c240f18110c737</sys_update_name>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 11:51:13</sys_updated_on>
+        <table/>
+        <test display_value="RCA-2">40d717264f9ddf0053c240f18110c78f</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=50d71b264f9ddf0053c240f18110c737"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>50d71b264f9ddf0053c240f18110c737</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 11:51:13</sys_created_on>
+        <sys_id>58d71b264f9ddf0053c240f18110c737</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 11:51:13</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="">c796d40497302200abe4bb7503ac4ad8</variable>
+    </sys_variable_value>
+</record_update>
